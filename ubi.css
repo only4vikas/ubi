@@ -1,0 +1,162 @@
+
+#div1 {
+	text-align:  right;
+}
+#div2 {
+	text-align: right;
+}
+#span1 {
+    text-align: right;
+    background-color: blue;
+}
+
+.menubar {
+	overflow: hidden;
+	background-color: red;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.menubar a {
+	float: left;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+.dropdown  .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: red;
+	margin: 0;
+}
+.menubar a:hover, .dropdown:hover .dropbtn {
+	background-color: skyblue;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: skyblue;
+	min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+	float: none;
+	color: red;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+.dropdown-content a:hover {
+	background-color: skyblue;
+}
+.dropdown:hover  .dropdown-content  {
+	display: block;
+}
+
+
+
+
+    * {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: left;}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+
+.latest-section a {
+	float: left;
+	text-align: center;
+	content: "";
+	display: table;
+	clear: both;
+}
+.quick-links {
+	background-color: skyblue;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 33%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+.active, .quick-links:hover {
+	color: blue;
+}
+.border {
+	border-style: dotted;
+	width: 33%;
+	border-color: skyblue;
+}
+#red {
+	color: red;
+}
+#blue {
+	color: skyblue;
+}
+.safe-guard {
+	border-style: dotted;
+	width: 33%;
+	border-color: skyblue;
+	display: table;
+}
+/*#p {
+	width: 30%
+	height: 30%;
+}*/
+
+
+* {box-sizing: border-box}
+/*.links {
+	float: left;
+	width: 33.33%;
+	padding: ;
+    height: 20px;
+}*/
+    
